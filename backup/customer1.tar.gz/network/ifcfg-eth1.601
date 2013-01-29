@@ -1,9 +1,0 @@
-# Please read /usr/share/doc/initscripts-*/sysconfig.txt
-# for the documentation of these parameters.
-GATEWAY=61.61.61.254
-DEVICE=eth1.601
-BOOTPROTO=static
-NETMASK=255.255.255.0
-IPADDR=61.61.61.23
-ONBOOT=yes
-VLAN=yes
