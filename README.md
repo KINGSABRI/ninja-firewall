@@ -26,33 +26,33 @@ Simplicity was the key of using such application
 - help menu (-h or --help):
 
 ```
-	ruby ninja-firewall.rb -h
-	Usage: ruby ninja-firewall.rb -c CUSTOMER -u USERNAME -p PASSWORD                                                                                                  
-    		-c, --customer CUSTOMER          mention One customer(which is down now!) name. MANDATORY
-    		-u, --user USERNAME              mention Username of customer's switch. MANDATORY
-    		-p, --pass PASSWORD              mention Password of customer's switch. MANDATORY
-    		-l, --list                       List all available customers.
-    		-r, --reset                      Reset ninja firewall system to original status.
-    		-h, --help                       Display this screen
+ruby ninja-firewall.rb -h
+Usage: ruby ninja-firewall.rb -c CUSTOMER -u USERNAME -p PASSWORD                                                                                                  
+    	-c, --customer CUSTOMER          mention One customer(which is down now!) name. MANDATORY
+    	-u, --user USERNAME              mention Username of customer's switch. MANDATORY
+    	-p, --pass PASSWORD              mention Password of customer's switch. MANDATORY
+    	-l, --list                       List all available customers.
+    	-r, --reset                      Reset ninja firewall system to original status.
+    	-h, --help                       Display this screen
 ```
 
 - List all available customers (-l or –list):
 
 ```
-	ruby  ninja-firewall.rb -l
-	------------------------
-	[+] Available Customers:
-	------------------------
-	[-] Customer1
-	[-] Customer2
-	[-] CustomerN
+ruby  ninja-firewall.rb -l
+------------------------
+[+] Available Customers:
+------------------------
+[-] Customer1
+[-] Customer2
+[-] CustomerN
 ```
 
 
 - Run the script in recovery mode 
 
 ```
-	ruby  ninja-firewall.rb -c $customer_name -u $username -p $password
+ruby  ninja-firewall.rb -c $customer_name -u $username -p $password
 ```
 
 which is
