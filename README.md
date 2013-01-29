@@ -1,4 +1,23 @@
-ninja-firewall
+```
+                                                                            
+                                Core Switch              ###
+                                    |____________________### ninja firewall
+                                    |                    ###
+                                    |
+                      |-------------|-------------|
+                     SW1           SW2           SWX
+                      |             |             |
+                     ###           ###           ###
+                FW1  ###       FW2 ###       FWX ###
+                     ###           ###           ###
+                                        
+```
+
+
+
+
+
+Ninja Firewall
 ==============
 Spare Firewall is a standby Linux machine with (CentOS) distribution. The core of spare firewall is “ninja firewall” application which is manage the whole recovering process once employee run it without no need for anymore interaction from him. Ninja firewall application has been written by Ruby programming language it supports Ruby 1.8.x and Ruby 1.9.x versions.
 
