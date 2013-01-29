@@ -1,3 +1,6 @@
+The Scenario
+============
+
 ```
                                                                             
                                 Core Switch              ###
@@ -40,7 +43,14 @@ If we describe the technical steps of ninja firewall work , it'll be like follow
 
 *How to use?*
 --------------
-Simplicity was the key of using such application 
+Make sure ruby is installed 
+
+*Required gems*
+
+```
+gem install colorize logger fileutils optparse pp parseconfig
+```
+
 
 - help menu (-h or --help):
 
