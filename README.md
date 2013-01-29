@@ -24,7 +24,7 @@ Ninja Firewall
 ==============
 Spare Firewall is a standby Linux machine with (CentOS) distribution. The core of spare firewall is “ninja firewall” application which is manage the whole recovering process once employee run it without no need for anymore interaction from him. Ninja firewall application has been written by Ruby programming language it supports Ruby 1.8.x and Ruby 1.9.x versions.
 
-*How does it work?*
+How does it work?
 -------------------
 Ninja firewall application restores last current update network and iptables configurations files after make sure from closing customer's firewall's port on it's switch in order to guarantee avoidance of any MAC conflict or any unexpected return for the recovered firewall.
 If we describe the technical steps of ninja firewall work , it'll be like following steps:
@@ -41,7 +41,7 @@ If we describe the technical steps of ninja firewall work , it'll be like follow
 10. Ninja-firewall is capable to work with all RHEL/CentOS systems
 11. Ninja-firewall support HP & Huwaie Switches commands 
 
-*How to use?*
+How to use?
 --------------
 Make sure ruby is installed 
 
