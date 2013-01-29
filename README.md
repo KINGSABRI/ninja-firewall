@@ -39,7 +39,7 @@ Simplicity was the key of using such application
 
 - List all available customers (-l or –list):
 
-
+```
 	ruby  ninja-firewall.rb -l
 	------------------------                                                                                                                                           
 	[+] Available Customers:                                                                                                                                           
@@ -47,7 +47,7 @@ Simplicity was the key of using such application
 	[-] Customer1                                                                                                                                                          
 	[-] Customer2                                                                                                                                                        
 	[-] CustomerN                                                                                                                                                        
-
+```
 
 
 - Run the script in recovery mode 
